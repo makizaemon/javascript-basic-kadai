@@ -1,5 +1,6 @@
 const calc = (price) => {
-    console.log(price*10);
+    return price * price;  // ← 二乗した結果を返す
 }
 
-calc(10);
+// ② 関数の戻り値をconsole.logで出力
+console.log(calc(10));
